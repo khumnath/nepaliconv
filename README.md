@@ -35,6 +35,11 @@ on project directory
 ```shell
 nepaliconv -bs 2023.09.29
 2080.06.12 Fri
+ ```
+# spaces on dete
+```shell
+./nepaliconv -bs -u -f y\ \M\ \d\ \गते\ \W
+ २०८० असोज १२ गते शुक्रबार
 ```
 
 # To display help and learn about other options, use a -h option.
