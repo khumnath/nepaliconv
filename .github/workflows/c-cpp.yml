@@ -1,8 +1,7 @@
 name: build nepaliconv
 
 on:
-  schedule:
-  - cron: "0 2 * * MON-FRI" # Runs at 02:00 UTC
+  push
   workflow_dispatch:
 
 jobs:
