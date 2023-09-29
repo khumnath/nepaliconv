@@ -2,7 +2,19 @@
 ### A nepali calendar cli converter for linux 
 this repository is a fork of [https://github.com/nepali-bhasa/nepali-calendar](https://github.com/nepali-bhasa/nepali-calendar "https://github.com/nepali-bhasa/nepali-calendar")
 add removed gui part.
-examples
+
+### build
+on project directory  
+
+`make all`
+### install 
+`sudo make install`
+### clean build
+`make clean`
+### uninstall from system
+`sudo make uninstall`
+
+# examples
 
 ```shell
 ./nepaliconv -bs -u -f y-m-d-W
@@ -25,4 +37,4 @@ nepaliconv -bs 2023.09.29
 2080.06.12 Fri
 ```
 
-#To display help and learn about other options, use a -h option.
+# To display help and learn about other options, use a -h option.
